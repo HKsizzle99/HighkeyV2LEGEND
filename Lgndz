@@ -1,0 +1,7 @@
+task.defer(function()
+    task.wait(1)
+    pcall(function()
+        game.TextChatService.TextChannels.RBXSystem:DisplaySystemMessage(
+            "<font color='#AA00FF'>  ╔  Yoggs ╝ [You are not a legend]</font>")
+    end)
+end)
